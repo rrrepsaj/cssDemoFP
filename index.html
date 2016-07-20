@@ -5,14 +5,15 @@
     <title>JGK CSS Demo</title>
     <link rel="stylesheet" href="stylesheets/cube.scss" />
     <link rel="stylesheet" href="stylesheets/card.scss" />
+    <link rel="stylesheet" href="stylesheets/rectangular.scss" />
   </head>
   <body>
     <div class="main-container">
 
       <section class="card-container">
         <div id="card" class="">
-          <figure class="top">1</figure>
-          <figure class="back">2</figure>
+          <figure class="top">X</figure>
+          <figure class="back">O</figure>
         </div>
       </section>
 
@@ -20,25 +21,47 @@
         <button class="flipped">Flip</button>
       </section>
 
+
       <section class="cube-container">
-        <div id="cube" class="show-front">
-          <figure class="front">1</figure>
-          <figure class="back">2</figure>
-          <figure class="right">3</figure>
-          <figure class="left">4</figure>
-          <figure class="top">5</figure>
-          <figure class="bottom">6</figure>
+        <div id="cube" class="show-cube-front">
+          <figure class="cube-front">1</figure>
+          <figure class="cube-back">2</figure>
+          <figure class="cube-right">3</figure>
+          <figure class="cube-left">4</figure>
+          <figure class="cube-top">5</figure>
+          <figure class="cube-bottom">6</figure>
         </div>
       </section>
 
-      <section id="show-buttons">
-        <button class="show-front">Show 1</button>
-        <button class="show-back">Show 2</button>
-        <button class="show-right">Show 3</button>
-        <button class="show-left">Show 4</button>
-        <button class="show-top">Show 5</button>
-        <button class="show-bottom">Show 6</button>
-        <button class="show-free-spin">Free Spin</button>
+      <section id="cube-show-buttons">
+        <button class="show-cube-front">Show 1</button>
+        <button class="show-cube-back">Show 2</button>
+        <button class="show-cube-right">Show 3</button>
+        <button class="show-cube-left">Show 4</button>
+        <button class="show-cube-top">Show 5</button>
+        <button class="show-cube-bottom">Show 6</button>
+        <button class="show-cube-free-spin">Free Spin</button>
+      </section>
+
+      <section class="rectangular-container">
+        <div id="rectangular" class="show-a">
+          <figure class="rectangular-a">a</figure>
+          <figure class="rectangular-b">b</figure>
+          <figure class="rectangular-c">c</figure>
+          <figure class="rectangular-d">d</figure>
+          <figure class="rectangular-e">e</figure>
+          <figure class="rectangular-f">f</figure>
+        </div>
+      </section>
+
+      <section id="rectangular-show-buttons">
+        <button class="show-rectangular-a">Show a</button>
+        <button class="show-rectangular-b">Show b</button>
+        <button class="show-rectangular-c">Show c</button>
+        <button class="show-rectangular-d">Show d</button>
+        <button class="show-rectangular-e">Show e</button>
+        <button class="show-rectangular-f">Show f</button>
+        <button class="show-rectangular-free-spin">Free Spin</button>
       </section>
     </div>
 
