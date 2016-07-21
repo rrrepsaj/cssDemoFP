@@ -11,7 +11,28 @@ let test = function(){
     }
   };
 
+  let cardFront = document.querySelector('.card-top');
+  let cardBack = document.querySelector('.card-back');
+  let cardMiddleF = document.querySelector('.middle-f');
+  let cardMiddleB = document.querySelector('.middle-b');
+
+  let cardUnpack = function(e){
+    cardFront.className = "card-top-unpack";
+    cardBack.className = "card-back-unpack";
+    cardMiddleF.className = "card-middle-f-unpack";
+    cardMiddleB.className = "card-middle-b-unpack";
+  };
+
+  let cardRepack = function(e){
+    cardFront.className = "card-top";
+    cardBack.className = "card-back";
+    cardMiddleF.className = "middle-f";
+    cardMiddleB.className = "middle-b";
+  };
+
   flipButton.addEventListener('click', onFlipButtonClick, false);
+  cardDiv.addEventListener('mouseenter', cardUnpack, false);
+  cardDiv.addEventListener('mouseleave', cardRepack, false);
 
 
   //3d cube

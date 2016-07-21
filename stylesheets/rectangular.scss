@@ -8,6 +8,8 @@
 #rectangular {
   width: 50%;
   height: 50%;
+  top: 5%;
+  left: 10%;
   margin: 15% 15%;
   position: absolute;
   -webkit-transform-style: preserve-3d;
@@ -191,4 +193,14 @@
 }
 #rectangular.show-rectangular-f {
   -webkit-transform: translateZ(-100px) rotateX(90deg);
+}
+
+
+section#rectangular-show-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#rectangular-show-buttons button {
+    margin: 5px 10px;
 }
