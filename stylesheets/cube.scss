@@ -15,6 +15,7 @@
   -webkit-transform: translateZ(-100px);
   -webkit-transition: -webkit-transform 1s;
 }
+
 #cube figure {
   display: block;
   position: absolute;
@@ -154,6 +155,18 @@
   -webkit-transform: translateZ(-100px) rotateX(90deg);
 }
 
+#cube.show-cube-free-spin {
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: translateZ(-100px);
+  -webkit-transition: -webkit-transform 1s;
+  animation: spin 15s infinite linear;
+}
+
 #cube-show-buttons {
   display: flex;
   justify-content: center;
@@ -161,4 +174,9 @@
 
 #cube-show-buttons button {
   margin: 5px 10px;
+}
+
+@keyframes spin {
+  from { transform: rotateY(0) rotateX(0); }
+  to { transform: rotateY(-360deg) rotateX(360deg); }
 }

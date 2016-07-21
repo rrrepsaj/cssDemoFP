@@ -194,6 +194,17 @@
 #rectangular.show-rectangular-f {
   -webkit-transform: translateZ(-100px) rotateX(90deg);
 }
+#rectangular.show-rectangular-free-spin {
+  width: 50%;
+  height: 50%;
+  top: 5%;
+  left: 10%;
+  margin: 15% 15%;
+  position: absolute;
+  animation: spin 15s infinite linear;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+}
 
 
 section#rectangular-show-buttons {
@@ -203,4 +214,9 @@ section#rectangular-show-buttons {
 
 #rectangular-show-buttons button {
     margin: 5px 10px;
+}
+
+@keyframes spin {
+  from { transform: rotateY(0) rotateX(0); }
+  to { transform: rotateY(-360deg) rotateX(360deg); }
 }

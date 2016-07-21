@@ -2,13 +2,18 @@ let test = function(){
 
   //Card Flip
   let cardDiv = document.querySelector('.card-container').children[0];
-  let flipButton = document.querySelector('#flip-button button');
+  let flipButton = document.querySelector('#flip-button .flipped');
+  let freeSpinButton = document.querySelector('#flip-button .card-free-spin');
   let onFlipButtonClick = function(e){
     if (cardDiv.className === ""){
       cardDiv.className = e.target.className;
     } else {
       cardDiv.className = "";
     }
+  };
+
+  let onFreeSpinButton = function(e){
+    cardDiv.className = "card-free-spin";
   };
 
   let cardFront = document.querySelector('.card-top');
@@ -30,6 +35,7 @@ let test = function(){
     cardMiddleB.className = "middle-b";
   };
 
+  freeSpinButton.addEventListener('click', onFreeSpinButton, false);
   flipButton.addEventListener('click', onFlipButtonClick, false);
   cardDiv.addEventListener('mouseenter', cardUnpack, false);
   cardDiv.addEventListener('mouseleave', cardRepack, false);

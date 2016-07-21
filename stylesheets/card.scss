@@ -62,6 +62,7 @@
 #card .card-z-line {
   height: .1px;
   width: 140%;
+  left: -20%;
   line-height: 10px;
   margin-top: 130px;
   border: 1px solid blue;
@@ -111,6 +112,21 @@
   -webkit-transform: rotateY(180deg);
 }
 
+#card.card-free-spin {
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+  text-align: center;
+  font-size: 120px;
+  line-height: 265px;
+  font-weight: bold;
+  animation: spin 15s infinite linear;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 9s;
+}
+
 #flip-button {
   width: 100%;
   display: flex;
@@ -148,4 +164,9 @@ p#z-axis {
     color: blue;
     border: 3px solid blue;
     padding: 1px 15px;
+}
+
+@keyframes spin {
+  from { transform: rotateY(0) rotateX(0); }
+  to { transform: rotateY(-360deg) rotateX(360deg); }
 }
