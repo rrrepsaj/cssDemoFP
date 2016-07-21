@@ -37,6 +37,10 @@
   -webkit-transform: translateZ(200px);
   background: hsla(0, 100%, 50%, 0.7);
 }
+#cube .cube-front-unpack:hover {
+  background: hsla(0, 100%, 50%, 1);
+  color: black;
+}
 
 #cube .cube-back {
   -webkit-transition: -webkit-transform 1s;
@@ -47,6 +51,12 @@
   -webkit-transition: -webkit-transform 1s;
   -webkit-transform: rotateX(180deg) translateZ(200px);
   background: hsla(  60, 100%, 50%, 0.7 );
+}
+#cube .cube-back-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: rotateX(180deg) translateZ(200px);
+  background: hsla(  60, 100%, 50%, 1 );
+  color: black;
 }
 
 #cube .cube-right {
@@ -59,6 +69,12 @@
   -webkit-transform: rotateY(90deg) translateZ(200px);
   background: hsla( 120, 100%, 50%, 0.7 );
 }
+#cube .cube-right-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: rotateY(90deg) translateZ(200px);
+  background: hsla( 120, 100%, 50%, 1 );
+  color: black;
+}
 
 #cube .cube-left {
   -webkit-transition: -webkit-transform 1s;
@@ -69,6 +85,12 @@
   -webkit-transition: -webkit-transform 1s;
   -webkit-transform: rotateY(-90deg) translateZ(200px);
   background: hsla( 180, 100%, 50%, 0.7 );
+}
+#cube .cube-left-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: rotateY(-90deg) translateZ(200px);
+  background: hsla( 180, 100%, 50%, 1 );
+  color: black;
 }
 
 #cube .cube-top {
@@ -81,6 +103,12 @@
   -webkit-transform: rotateX(90deg) translateZ(200px);
   background: hsla( 240, 100%, 50%, 0.7 );
 }
+#cube .cube-top-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: rotateX(90deg) translateZ(200px);
+  background: hsla( 240, 100%, 50%, 1 );
+  color: black;
+}
 
 #cube .cube-bottom {
   -webkit-transition: -webkit-transform 1s;
@@ -91,6 +119,12 @@
   -webkit-transition: -webkit-transform 1s;
   -webkit-transform: rotateX(-90deg) translateZ(200px);
   background: hsla( 300, 100%, 50%, 0.7 );
+}
+#cube .cube-bottom-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: rotateX(-90deg) translateZ(200px);
+  background: hsla( 300, 100%, 50%, 1 );
+  color: black;
 }
 
 

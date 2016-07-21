@@ -1,14 +1,14 @@
 .rectangular-container {
-  width: 300px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   position: relative;
   margin: 100px auto 40px auto;
-  border: 1px solid black;
   -webkit-perspective: 1200px;
 }
 #rectangular {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
+  margin: 15% 15%;
   position: absolute;
   -webkit-transform-style: preserve-3d;
   -webkit-transition: -webkit-transform 1s;
@@ -27,18 +27,21 @@
 }
 
 #rectangular .rectangular-a {
+  -webkit-transition: -webkit-transform 1s;
   width: 296px;
   height: 196px;
   background: hsla(0, 100%, 50%, 0.7);
   -webkit-transform: translateZ(50px);
 }
 #rectangular .rectangular-b {
+  -webkit-transition: -webkit-transform 1s;
   width: 296px;
   height: 196px;
   background: hsla(  60, 100%, 50%, 0.7 );
   -webkit-transform: rotateX(180deg) translateZ(50px);
 }
 #rectangular .rectangular-c {
+  -webkit-transition: -webkit-transform 1s;
   width: 96px;
   height: 196px;
   left: 100px;
@@ -46,6 +49,7 @@
   -webkit-transform: rotateY(90deg) translateZ(150px);
 }
 #rectangular .rectangular-d {
+  -webkit-transition: -webkit-transform 1s;
   width: 96px;
   height: 196px;
   left: 100px;
@@ -53,6 +57,7 @@
   -webkit-transform: rotateY(-90deg) translateZ(150px);
 }
 #rectangular .rectangular-e {
+  -webkit-transition: -webkit-transform 1s;
   width: 296px;
   height: 96px;
   top: 50px;
@@ -60,6 +65,7 @@
   -webkit-transform: rotateX(90deg) translateZ(100px);
 }
 #rectangular .rectangular-f {
+  -webkit-transition: -webkit-transform 1s;
   width: 296px;
   height: 96px;
   top: 50px;
@@ -68,18 +74,21 @@
 }
 
 #rectangular .rectangular-a-unpack {
+  -webkit-transition: -webkit-transform 1s;
   width: 296px;
   height: 196px;
   background: hsla(0, 100%, 50%, 0.7);
   -webkit-transform: translateZ(100px);
 }
 #rectangular .rectangular-b-unpack {
+  -webkit-transition: -webkit-transform 1s;
   width: 296px;
   height: 196px;
   background: hsla(  60, 100%, 50%, 0.7 );
   -webkit-transform: rotateX(180deg) translateZ(100px);
 }
 #rectangular .rectangular-c-unpack {
+  -webkit-transition: -webkit-transform 1s;
   width: 96px;
   height: 196px;
   left: 100px;
@@ -87,6 +96,7 @@
   -webkit-transform: rotateY(90deg) translateZ(300px);
 }
 #rectangular .rectangular-d-unpack {
+  -webkit-transition: -webkit-transform 1s;
   width: 96px;
   height: 196px;
   left: 100px;
@@ -94,6 +104,7 @@
   -webkit-transform: rotateY(-90deg) translateZ(300px);
 }
 #rectangular .rectangular-e-unpack {
+  -webkit-transition: -webkit-transform 1s;
   width: 296px;
   height: 96px;
   top: 50px;
@@ -101,10 +112,64 @@
   -webkit-transform: rotateX(90deg) translateZ(200px);
 }
 #rectangular .rectangular-f-unpack {
+  -webkit-transition: -webkit-transform 1s;
   width: 296px;
   height: 96px;
   top: 50px;
   background: hsla( 300, 100%, 50%, 0.7 );
+  -webkit-transform: rotateX(-90deg) translateZ(200px);
+}
+
+#rectangular .rectangular-a-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  width: 296px;
+  height: 196px;
+  background: hsla(0, 100%, 50%, 0.7);
+  -webkit-transform: translateZ(11x);
+  color: black;
+}
+#rectangular .rectangular-b-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  width: 296px;
+  height: 196px;
+  background: hsla(  60, 100%, 50%, 0.7 );
+  -webkit-transform: rotateX(180deg) translateZ(11x);
+  color: black;
+}
+#rectangular .rectangular-c-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  width: 96px;
+  height: 196px;
+  left: 100px;
+  background: hsla( 120, 100%, 50%, 1 );
+  color: black;
+  -webkit-transform: rotateY(90deg) translateZ(300px);
+}
+#rectangular .rectangular-d-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  width: 96px;
+  height: 196px;
+  left: 100px;
+  background: hsla( 180, 100%, 50%, 1 );
+  color: black;
+  -webkit-transform: rotateY(-90deg) translateZ(300px);
+}
+#rectangular .rectangular-e-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  width: 296px;
+  height: 96px;
+  top: 50px;
+  background: hsla( 240, 100%, 50%, 1 );
+  color: black;
+  -webkit-transform: rotateX(90deg) translateZ(200px);
+}
+#rectangular .rectangular-f-unpack:hover {
+  -webkit-transition: -webkit-transform 1s;
+  width: 296px;
+  height: 96px;
+  top: 50px;
+  background: hsla( 300, 100%, 50%, 1 );
+  color: black;
   -webkit-transform: rotateX(-90deg) translateZ(200px);
 }
 
