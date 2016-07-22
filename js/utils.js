@@ -1,5 +1,39 @@
 let test = function(){
 
+  // Page relocation
+
+  $("#card-btn").click(() => {
+    $('html, body').animate({
+      scrollTop: $(".card-container").offset().top
+    }, 1000);
+  });
+
+  $("#cube-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $(".cube-container").offset().top
+    }, 1000);
+  });
+
+  $("#rectangular-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $(".rectangular-container").offset().top
+    }, 1000);
+  });
+
+  $("#pyramid-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $(".pyramid-container").offset().top
+    }, 1000);
+  });
+
+  $("#carousel-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $(".carousel-container").offset().top
+    }, 1000);
+  });
+
+
+
   //Card Flip
   let cardDiv = document.querySelector('.card-container').children[0];
   let flipButton = document.querySelector('#flip-button .flipped');
