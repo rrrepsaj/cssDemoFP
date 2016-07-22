@@ -28,6 +28,7 @@ ul {
   border-bottom: 1px solid black;
   position: relative;
   display: block;
+  box-shadow: -27px 20px 0 rgba(208, 208, 208, 0.5);
   text-decoration: none;
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
@@ -44,6 +45,7 @@ ul {
   position: relative;
   display: block;
   text-decoration: none;
+  box-shadow: -14px 18px 0 rgba(225, 225, 225, 0.72);
   transform: rotate(90deg);
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
@@ -63,6 +65,7 @@ a > p {
   color: #fffcfb;
   -webkit-transform: translate(0.9em, -0.9em);
   transform: translate(0.9em, 1.1em) rotate(90deg);
+  box-shadow: -28px 33px 0 rgba(225, 225, 225, 0.72);
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
 }
@@ -113,6 +116,7 @@ a > p {
   -webkit-transform: translate(0.9em, -0.9em);
   transform: translate(0.9em, -0.9em);
   -webkit-transition: all .25s linear;
+  box-shadow: -40px 34px 0 rgba(224, 221, 221, 0.62);
   transition: all .25s linear;
 }
 .list-item:hover:before, .list-item:hover:after {
