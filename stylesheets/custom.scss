@@ -1,0 +1,128 @@
+/* General */
+
+// html {
+//   padding: 20px;
+// }
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  // font-size: 18px;
+  background: #000;
+  margin: 0;
+  padding: 30px 100px;
+
+  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  background-size: 400% 400%;
+
+  -webkit-animation: bgAnim 59s ease infinite;
+  -moz-animation: bgAnim 59s ease infinite;
+  -o-animation: bgAnim 59s ease infinite;
+  animation: bgAnim 59s ease infinite;
+}
+
+.main-content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  text-align: center;
+  text-shadow: 0px 5px 10px #666;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+#top-header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.independent {
+  margin-bottom: 100px;
+}
+
+#atom {
+  background: black;
+  margin-bottom: 30px;
+  padding: 150px;
+}
+
+// section {
+//   margin: 0;
+//   padding: 0;
+// }
+
+/* Buttons */
+
+#button-locators {
+  display: flex;
+  justify-content: center;
+  // align-content: space-between;
+}
+
+h3.title {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+div.back-to-top {
+  float: right;
+  margin: 20px;
+}
+
+span.top {
+  cursor: pointer;
+  color: #000;
+  float: right;
+  margin-left: 5px;
+}
+
+button {
+  // background-color: #333333;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  // margin-top: 16px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 200ms;
+}
+
+button:hover, button:focus {
+  background-color: #fff;
+  color: #333;
+  outline: 0;
+  border: 1px solid #333;
+}
+
+/* Keyframes */
+
+@-webkit-keyframes bgAnim {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@-moz-keyframes bgAnim {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@-o-keyframes bgAnim {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@keyframes bgAnim {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}

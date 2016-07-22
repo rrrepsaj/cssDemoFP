@@ -3,15 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>JGK CSS Demo</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/atom.scss" />
     <link rel="stylesheet" href="stylesheets/cube.scss" />
     <link rel="stylesheet" href="stylesheets/card.scss" />
     <link rel="stylesheet" href="stylesheets/rectangular.scss" />
     <link rel="stylesheet" href="stylesheets/carousel.scss" />
+    <link rel="stylesheet" href="stylesheets/custom.scss" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </head>
   <body>
     <div class="main-container">
+      <div class="main-header">
+        <div id="top-header">
+          <h1>MCB CSS DEMO</h1>
+        </div>
 
-      <section class="card-container">
+        <div id="atom">
+          <div class="particle-view">
+            <div class="plane main">
+              <div class="particle"></div>
+              <div class="particle"></div>
+              <div class="particle"></div>
+              <div class="particle"></div>
+              <div class="particle"></div>
+              <div class="particle"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="button-locators">
+          <button id="card-btn">Card</button>
+          <button id="cube-btn">Cube</button>
+          <button id="rectangular-btn">Rectangular Prism</button>
+          <button id="pyramid-btn">Pyramid</button>
+          <button id="carousel-btn">Carousel</button>
+        </div>
+      </div>
+
+
+
+      <!-- There was some syntax highlighting issues so I re-typed this section -->
+      <!-- <section class="card-container">
         <div id="card" class="">
           <figure class="card-top">X</figure>
           <figure class="middle-f"></figure>
@@ -21,97 +57,141 @@
           <figure class="middle-b"></figure>
           <figure class="card-back">O</figure>
         </div>
-      </section>
+      </section> -->
 
-      <section class="axis-legend">
-        <p id="x-axis">x-axis</p>
-        <p id="y-axis">y-axis</p>
-        <p id="z-axis">z-axis</p>
-      </section>
+      <!-- Card -->
 
-      <section id="flip-button">
-        <button class="flipped">Flip</button>
-        <button class="card-free-spin">Free Spin</button>
-      </section>
+      <div id="card-section" class="independent">
+        <h3 class="title">Card</h3>
+        <section class="card-container">
+          <div id="card" class="">
+            <figure class="card-top">X</figure>
+            <figure class="middle-f"></figure>
+            <figure class="card-x-line axis"></figure>
+            <figure class="card-y-line axis"></figure>
+            <figure class="card-z-line axis"></figure>
+            <figure class="middle-b"></figure>
+            <figure class="card-back">0</figure>
+          </div>
+        </section>
 
+        <section class="axis-legend">
+          <p id="x-axis">x-axis</p>
+          <p id="y-axis">y-axis</p>
+          <p id="z-axis">z-axis</p>
+        </section>
 
-      <section class="cube-container">
-        <div id="cube" class="show-cube-front">
-          <figure class="cube-front">1</figure>
-          <figure class="cube-back">2</figure>
-          <figure class="cube-right">3</figure>
-          <figure class="cube-left">4</figure>
-          <figure class="cube-top">5</figure>
-          <figure class="cube-bottom">6</figure>
-        </div>
-      </section>
+        <section id="flip-button">
+          <button class="flipped">Flip</button>
+          <button class="card-free-spin">Free Spin</button>
+        </section>
 
-      <section id="cube-show-buttons">
-        <button class="show-cube-front">Show 1</button>
-        <button class="show-cube-back">Show 2</button>
-        <button class="show-cube-right">Show 3</button>
-        <button class="show-cube-left">Show 4</button>
-        <button class="show-cube-top">Show 5</button>
-        <button class="show-cube-bottom">Show 6</button>
-        <button class="show-cube-free-spin">Free Spin</button>
-      </section>
+        <div class="back-to-top">Back to top <span class="top"><i class="fa fa-caret-square-o-up fa-6x" aria-hidden="true"></i></span></div>
+      </div>
 
 
-      <section class="rectangular-container">
-        <div id="rectangular" class="show-a">
-          <figure class="rectangular-a">a</figure>
-          <figure class="rectangular-b">b</figure>
-          <figure class="rectangular-c">c</figure>
-          <figure class="rectangular-d">d</figure>
-          <figure class="rectangular-e">e</figure>
-          <figure class="rectangular-f">f</figure>
-        </div>
-      </section>
+      <!-- Cube -->
 
-      <section id="rectangular-show-buttons">
-        <button class="show-rectangular-a">Show a</button>
-        <button class="show-rectangular-b">Show b</button>
-        <button class="show-rectangular-c">Show c</button>
-        <button class="show-rectangular-d">Show d</button>
-        <button class="show-rectangular-e">Show e</button>
-        <button class="show-rectangular-f">Show f</button>
-        <button class="show-rectangular-free-spin">Free Spin</button>
-      </section>
+      <div id="cube-section" class="independent">
+        <h3 class="title">Cube</h3>
+        <section class="cube-container">
+          <div id="cube" class="show-cube-front">
+            <figure class="cube-front">1</figure>
+            <figure class="cube-back">2</figure>
+            <figure class="cube-right">3</figure>
+            <figure class="cube-left">4</figure>
+            <figure class="cube-top">5</figure>
+            <figure class="cube-bottom">6</figure>
+          </div>
+        </section>
+
+        <section id="cube-show-buttons">
+          <button class="show-cube-front">Show 1</button>
+          <button class="show-cube-back">Show 2</button>
+          <button class="show-cube-right">Show 3</button>
+          <button class="show-cube-left">Show 4</button>
+          <button class="show-cube-top">Show 5</button>
+          <button class="show-cube-bottom">Show 6</button>
+          <button class="show-cube-free-spin">Free Spin</button>
+        </section>
+
+        <div class="back-to-top">Back to top <span class="top"><i class="fa fa-caret-square-o-up fa-6x" aria-hidden="true"></i></span></div>
+      </div>
+
+      <!-- Rectangular Prism -->
+
+      <div id="rectangular-section" class="independent">
+        <h3 class="title">Rectangular Prism</h3>
+        <section class="rectangular-container">
+          <div id="rectangular" class="show-a">
+            <figure class="rectangular-a">a</figure>
+            <figure class="rectangular-b">b</figure>
+            <figure class="rectangular-c">c</figure>
+            <figure class="rectangular-d">d</figure>
+            <figure class="rectangular-e">e</figure>
+            <figure class="rectangular-f">f</figure>
+          </div>
+        </section>
+
+        <section id="rectangular-show-buttons">
+          <button class="show-rectangular-a">Show a</button>
+          <button class="show-rectangular-b">Show b</button>
+          <button class="show-rectangular-c">Show c</button>
+          <button class="show-rectangular-d">Show d</button>
+          <button class="show-rectangular-e">Show e</button>
+          <button class="show-rectangular-f">Show f</button>
+          <button class="show-rectangular-free-spin">Free Spin</button>
+        </section>
+
+        <div class="back-to-top">Back to top <span class="top"><i class="fa fa-caret-square-o-up fa-6x" aria-hidden="true"></i></span></div>
+      </div>
 
 
-      <section class="pyramid-container">
-        <div id="pyramid" class="show-pyramid-front">
-          <figure class="pyramid-front">Front</figure>
-          <figure class="pyramid-back">Back</figure>
-          <figure class="pyramid-right">Right</figure>
-          <figure class="pyramid-left">Left</figure>
-          <figure class="pyramid-bottom">Bottom</figure>
-        </div>
-      </section>
+      <!-- Pyramid -->
 
-      <section id="pyramid-show-buttons">
-        <button class="show-pyramid-front">Show Front</button>
-        <button class="show-pyramid-back">Show Back</button>
-        <button class="show-pyramid-right">Show Right</button>
-        <button class="show-pyramid-left">Show Left</button>
-        <button class="show-pyramid-bottom">Show Bottom</button>
-        <button class="show-pyramid-free-spin">Free Spin</button>
-      </section>
+      <div id="pyramid-section" class="independent">
+        <h3 class="title">Pyramid</h3>
+        <section class="pyramid-container">
+          <div id="pyramid" class="show-pyramid-front">
+            <figure class="pyramid-front">Front</figure>
+            <figure class="pyramid-back">Back</figure>
+            <figure class="pyramid-right">Right</figure>
+            <figure class="pyramid-left">Left</figure>
+            <figure class="pyramid-bottom">Bottom</figure>
+          </div>
+        </section>
 
-      <section class="carousel-container">
-        <div id="carousel" class="show-panel-1">
-          <figure class="panel-1">1</figure>
-          <figure class="panel-2">2</figure>
-          <figure class="panel-3">3</figure>
-          <figure class="panel-4">4</figure>
-          <figure class="panel-5">5</figure>
-          <figure class="panel-6">6</figure>
-          <figure class="panel-7">7</figure>
-          <figure class="panel-8">8</figure>
-          <figure class="panel-9">9</figure>
-          <figure class="panel-10">10</figure>
-        </div>
-      </section>
+        <section id="pyramid-show-buttons">
+          <button class="show-pyramid-front">Show Front</button>
+          <button class="show-pyramid-back">Show Back</button>
+          <button class="show-pyramid-right">Show Right</button>
+          <button class="show-pyramid-left">Show Left</button>
+          <button class="show-pyramid-bottom">Show Bottom</button>
+          <button class="show-pyramid-free-spin">Free Spin</button>
+        </section>
+
+        <div class="back-to-top">Back to top <span class="top"><i class="fa fa-caret-square-o-up fa-6x" aria-hidden="true"></i></span></div>
+      </div>
+
+
+      <!-- Carousel -->
+
+      <div id="carousel-section" class="independent">
+        <h3 class="title">Carousel</h3>
+        <section class="carousel-container">
+          <div id="carousel" class="show-panel-1">
+            <figure class="panel-1">1</figure>
+            <figure class="panel-2">2</figure>
+            <figure class="panel-3">3</figure>
+            <figure class="panel-4">4</figure>
+            <figure class="panel-5">5</figure>
+            <figure class="panel-6">6</figure>
+            <figure class="panel-7">7</figure>
+            <figure class="panel-8">8</figure>
+            <figure class="panel-9">9</figure>
+            <figure class="panel-10">10</figure>
+          </div>
+        </section>
 
         <section id="carousel-show-buttons">
           <button class="show-panel-1">Show p1</button>
@@ -126,6 +206,9 @@
           <button class="show-panel-10">Show p10</button>
           <button class="show-panel-free-spin">Free Spin</button>
         </section>
+
+        <div class="back-to-top">Back to top <span class="top"><i class="fa fa-caret-square-o-up fa-6x" aria-hidden="true"></i></span></div>
+      </div>
 
     </div>
 

@@ -2,7 +2,7 @@
   width: 600px;
   height: 400px;
   position: relative;
-  margin: 100px auto 40px auto;
+  margin: 0 auto;
   -webkit-perspective: 1200px;
 }
 #rectangular {
@@ -206,15 +206,42 @@
   -webkit-transition: -webkit-transform 1s;
 }
 
+/* Show buttons */
 
 section#rectangular-show-buttons {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #rectangular-show-buttons button {
-    margin: 5px 10px;
+  margin: 25px 10px;
 }
+
+.show-rectangular-a:hover, .show-rectangular-a:focus {
+  background: hsla(0, 100%, 50%, 0.5);
+}
+
+.show-rectangular-b:hover, .show-rectangular-b:focus {
+  background: hsla(  60, 100%, 50%, 0.5 );
+}
+
+.show-rectangular-c:hover, .show-rectangular-c:focus {
+  background: hsla( 120, 100%, 50%, 0.5 );
+}
+
+.show-rectangular-d:hover, .show-rectangular-d:focus {
+  background: hsla( 180, 100%, 50%, 0.5 );
+}
+
+.show-rectangular-e:hover, .show-rectangular-e:focus {
+  background: hsla( 240, 100%, 50%, 0.5 );
+}
+
+.show-rectangular-f:hover, .show-rectangular-f:focus {
+  background: hsla( 300, 100%, 50%, 0.5 );
+}
+
+/* Keyframes */
 
 @keyframes spin {
   from { transform: rotateY(0) rotateX(0); }

@@ -2,7 +2,7 @@
   width: 400px;
   height: 400px;
   position: relative;
-  margin: 100px auto 40px auto;
+  margin: 0 auto;
   -webkit-perspective: 1200px;
 }
 #cube {
@@ -167,14 +167,42 @@
   -webkit-transition: -webkit-transform 1s;
 }
 
+/* Show buttons */
+
 #cube-show-buttons {
   display: flex;
   justify-content: center;
 }
 
 #cube-show-buttons button {
-  margin: 5px 10px;
+  margin: 25px 10px;
 }
+
+button.show-cube-front:hover, button.show-cube-front:focus {
+  background-color: hsla(0, 100%, 50%, 0.5);
+}
+
+button.show-cube-back:hover, button.show-cube-back:focus {
+  background-color: hsla(60, 100%, 50%, 0.5);
+}
+
+button.show-cube-right:hover, button.show-cube-right:focus {
+  background-color: hsla(120, 100%, 50%, 0.5);
+}
+
+button.show-cube-left:hover, button.show-cube-left:focus {
+  background-color: hsla(180, 100%, 50%, 0.5);
+}
+
+button.show-cube-top:hover, button.show-cube-top:focus {
+  background-color: hsla(240, 100%, 50%, 0.5);
+}
+
+button.show-cube-bottom:hover, button.show-cube-bottom:focus {
+  background-color: hsla(300, 100%, 50%, 0.5);
+}
+
+/* Keyframes */
 
 @keyframes cube-spin {
   from { transform: rotateY(0) rotateX(0); }

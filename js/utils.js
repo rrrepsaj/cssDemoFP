@@ -1,5 +1,45 @@
 let test = function(){
 
+  // Page relocation
+
+  $(".top").click(() => {
+    $("html, body").animate({
+      scrollTop: $("html").offset().top
+    }, 1000);
+  });
+
+  $("#card-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $("#card-section").offset().top
+    }, 1500);
+  });
+
+  $("#cube-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $("#cube-section").offset().top
+    }, 1500);
+  });
+
+  $("#rectangular-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $("#rectangular-section").offset().top
+    }, 1500);
+  });
+
+  $("#pyramid-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $("#pyramid-section").offset().top
+    }, 1500);
+  });
+
+  $("#carousel-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $("#carousel-section").offset().top
+    }, 1500);
+  });
+
+
+
   //Card Flip
   let cardDiv = document.querySelector('.card-container').children[0];
   let flipButton = document.querySelector('#flip-button .flipped');
