@@ -119,5 +119,18 @@ let test = function(){
   rectangularDiv.addEventListener('mouseenter', rectangularUnpack, false);
   rectangularDiv.addEventListener('mouseleave', rectangularRepack, false);
 
+
+  //Carousel
+  let carouselDiv = document.querySelector('.carousel-container').children[0];
+  let carouselShowButtons = document.querySelectorAll('#carousel-show-buttons button');
+  let onCarouselShowButtonClick = function(e){
+    carouselDiv.className = e.target.className;
+  };
+
+  for (let i = 0; i < carouselShowButtons.length; i++){
+    carouselShowButtons[i].addEventListener('click', onCarouselShowButtonClick, false);
+  }
+
+
 };
 window.addEventListener("DOMContentLoaded", test, false);

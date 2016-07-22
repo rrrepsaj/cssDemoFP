@@ -1,0 +1,137 @@
+.carousel-container {
+  width: 840px;
+  height: 560px;
+  position: relative;
+  margin: 100px auto 40px auto;
+  -webkit-perspective: 1200px;
+}
+#carousel {
+  width: 25%;
+  height: 25%;
+  left: 37.5%;
+  top: 37.5%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+}
+#carousel figure {
+  display: block;
+  position: absolute;
+  width: 186px;
+  height: 116px;
+  color: black;
+  left: 10px;
+  top: 10px;
+  font-size: 100px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0px;
+}
+
+#carousel .panel-1 {
+  -webkit-transform: rotateY(0deg) translateZ(323px);
+  background: hsla(0, 100%, 50%, 0.85);
+}
+#carousel .panel-2 {
+  -webkit-transform: rotateY(36deg) translateZ(323px);
+  background: hsla(60, 100%, 50%, 0.85);
+}
+#carousel .panel-3 {
+  -webkit-transform: rotateY(72deg) translateZ(323px);
+  background: hsla(120, 100%, 50%, 0.85);
+}
+#carousel .panel-4 {
+  -webkit-transform: rotateY(108deg) translateZ(323px);
+  background: hsla(180, 100%, 50%, 0.85);
+}
+#carousel .panel-5 {
+  -webkit-transform: rotateY(144deg) translateZ(323px);
+    background: hsla(0, 100%, 50%, 0.85);
+}
+#carousel .panel-6 {
+  -webkit-transform: rotateY(180deg) translateZ(323px);
+  background: hsla(60, 100%, 50%, 0.85);
+}
+#carousel .panel-7 {
+  -webkit-transform: rotateY(216deg) translateZ(323px);
+  background: hsla(120, 100%, 50%, 0.85);
+}
+#carousel .panel-8 {
+  -webkit-transform: rotateY(252deg) translateZ(323px);
+  background: hsla(180, 100%, 50%, 0.85);
+}
+#carousel .panel-9 {
+  -webkit-transform: rotateY(288deg) translateZ(323px);
+  background: hsla(240, 100%, 50%, 0.85);
+}
+#carousel .panel-10 {
+  -webkit-transform: rotateY(324deg) translateZ(323px);
+  background: hsla(300, 100%, 50%, 0.85);
+}
+
+#carousel.show-panel-1 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(0);
+}
+#carousel.show-panel-2 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-36deg);
+}
+#carousel.show-panel-3 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-72deg);
+}
+#carousel.show-panel-4 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-108deg);
+}
+#carousel.show-panel-5 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-144deg);
+}
+#carousel.show-panel-6 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-180deg);
+}
+#carousel.show-panel-7 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-216deg);
+}
+#carousel.show-panel-8 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-252deg);
+}
+#carousel.show-panel-9 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-288deg);
+}
+#carousel.show-panel-10 {
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-323px) rotateY(-324deg);
+}
+#carousel.show-panel-free-spin{
+  width: 25%;
+  height: 25%;
+  left: 37.5%;
+  top: 37.5%;
+  position: absolute;
+  animation: carousel-spin 15s infinite linear;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+}
+
+#carousel-show-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#carousel-show-buttons button {
+  margin: 5px 10px;
+}
+
+@keyframes carousel-spin {
+  from { transform: rotateY(0) rotateX(0); }
+  to { transform: rotateY(-360deg) rotateX(0); }
+}

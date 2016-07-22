@@ -161,10 +161,10 @@
   top: 25%;
   left: 25%;
   position: absolute;
+  animation: cube-spin 15s infinite linear;
   -webkit-transform-style: preserve-3d;
   -webkit-transform: translateZ(-100px);
   -webkit-transition: -webkit-transform 1s;
-  animation: spin 15s infinite linear;
 }
 
 #cube-show-buttons {
@@ -176,7 +176,7 @@
   margin: 5px 10px;
 }
 
-@keyframes spin {
+@keyframes cube-spin {
   from { transform: rotateY(0) rotateX(0); }
   to { transform: rotateY(-360deg) rotateX(360deg); }
 }
