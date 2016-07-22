@@ -179,45 +179,27 @@
 }
 
 button.show-cube-front:hover, button.show-cube-front:focus {
-  background-color: hsla(0, 100%, 50%, 0.7);
-  color: #333;
-  outline: 0;
-  border: 1px solid #333;
+  background-color: hsla(0, 100%, 50%, 0.5);
 }
 
 button.show-cube-back:hover, button.show-cube-back:focus {
-  background-color: hsla(  60, 100%, 50%, 0.7 );
-  color: #333;
-  outline: 0;
-  border: 1px solid #333;
+  background-color: hsla(60, 100%, 50%, 0.5);
 }
 
 button.show-cube-right:hover, button.show-cube-right:focus {
-  background-color: hsla( 120, 100%, 50%, 0.7 );
-  color: #333;
-  outline: 0;
-  border: 1px solid #333;
+  background-color: hsla(120, 100%, 50%, 0.5);
 }
 
 button.show-cube-left:hover, button.show-cube-left:focus {
-  background-color: hsla( 180, 100%, 50%, 0.7 );
-  color: #333;
-  outline: 0;
-  border: 1px solid #333;
+  background-color: hsla(180, 100%, 50%, 0.5);
 }
 
 button.show-cube-top:hover, button.show-cube-top:focus {
-  background-color: hsla( 240, 100%, 50%, 0.7 );
-  color: #333;
-  outline: 0;
-  border: 1px solid #333;
+  background-color: hsla(240, 100%, 50%, 0.5);
 }
 
 button.show-cube-bottom:hover, button.show-cube-bottom:focus {
-  background-color: hsla( 300, 100%, 50%, 0.7 );
-  color: #333;
-  outline: 0;
-  border: 1px solid #333;
+  background-color: hsla(300, 100%, 50%, 0.5);
 }
 
 /* Keyframes */
