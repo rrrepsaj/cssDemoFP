@@ -9,7 +9,7 @@ body {
   // font-size: 18px;
   background: #000;
   margin: 0;
-  padding: 100px;
+  padding: 30px 100px;
 
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   background-size: 400% 400%;
@@ -26,8 +26,30 @@ body {
   padding: 0;
 }
 
+.main-header {
+  text-align: center;
+  text-shadow: 0px 5px 10px #666;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+#top-header h1 {
+  margin: 0;
+  padding: 0;
+}
+
 .independent {
   margin-bottom: 100px;
+}
+
+#atom {
+  background: black;
+  margin-bottom: 30px;
+  padding: 150px;
 }
 
 // section {

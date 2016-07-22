@@ -5,6 +5,7 @@
     <title>JGK CSS Demo</title>
 
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/atom.scss" />
     <link rel="stylesheet" href="stylesheets/cube.scss" />
     <link rel="stylesheet" href="stylesheets/card.scss" />
     <link rel="stylesheet" href="stylesheets/rectangular.scss" />
@@ -16,13 +17,34 @@
   </head>
   <body>
     <div class="main-container">
-      <div id="button-locators">
-        <button id="card-btn">Card</button>
-        <button id="cube-btn">Cube</button>
-        <button id="rectangular-btn">Rectangular Prism</button>
-        <button id="pyramid-btn">Pyramid</button>
-        <button id="carousel-btn">Carousel</button>
+      <div class="main-header">
+        <div id="top-header">
+          <h1>MCB CSS DEMO</h1>
+        </div>
+
+        <div id="atom">
+          <div class="particle-view">
+            <div class="plane main">
+              <div class="particle"></div>
+              <div class="particle"></div>
+              <div class="particle"></div>
+              <div class="particle"></div>
+              <div class="particle"></div>
+              <div class="particle"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="button-locators">
+          <button id="card-btn">Card</button>
+          <button id="cube-btn">Cube</button>
+          <button id="rectangular-btn">Rectangular Prism</button>
+          <button id="pyramid-btn">Pyramid</button>
+          <button id="carousel-btn">Carousel</button>
+        </div>
       </div>
+
+
 
       <!-- There was some syntax highlighting issues so I re-typed this section -->
       <!-- <section class="card-container">

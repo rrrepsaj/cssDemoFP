@@ -4,7 +4,7 @@ let test = function(){
 
   $(".top").click(() => {
     $("html, body").animate({
-      scrollTop: $("#button-locators").offset().top
+      scrollTop: $("html").offset().top
     }, 1000);
   });
 
