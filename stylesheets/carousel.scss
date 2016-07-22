@@ -13,7 +13,7 @@
   top: 37.5%;
   position: absolute;
   -webkit-transform-style: preserve-3d;
-  -webkit-transition: -webkit-transform 1s;
+  // -webkit-transition: -webkit-transform 1s;
 }
 #carousel figure {
   display: block;
@@ -116,9 +116,10 @@
   left: 37.5%;
   top: 37.5%;
   position: absolute;
+  // -webkit-perspective: 1200px;
   animation: carousel-spin 15s infinite linear;
   -webkit-transform-style: preserve-3d;
-  -webkit-transition: -webkit-transform 1s;
+  // -webkit-transition: -webkit-transform 1s;
 }
 
 /* Show buttons */
@@ -178,5 +179,5 @@
 
 @keyframes carousel-spin {
   from { transform: rotateY(0) rotateX(0); }
-  to { transform: rotateY(-360deg) rotateX(0); }
+  to { transform: rotateY(-360deg) rotateX(0deg); }
 }
