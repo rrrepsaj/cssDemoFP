@@ -2,34 +2,40 @@ let test = function(){
 
   // Page relocation
 
-  $("#card-btn").click(() => {
-    $('html, body').animate({
-      scrollTop: $(".card-container").offset().top
+  $(".top").click(() => {
+    $("html, body").animate({
+      scrollTop: $("#button-locators").offset().top
     }, 1000);
+  });
+
+  $("#card-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $("#card-section").offset().top
+    }, 1500);
   });
 
   $("#cube-btn").click(() => {
     $("html, body").animate({
-      scrollTop: $(".cube-container").offset().top
-    }, 1000);
+      scrollTop: $("#cube-section").offset().top
+    }, 1500);
   });
 
   $("#rectangular-btn").click(() => {
     $("html, body").animate({
-      scrollTop: $(".rectangular-container").offset().top
-    }, 1000);
+      scrollTop: $("#rectangular-section").offset().top
+    }, 1500);
   });
 
   $("#pyramid-btn").click(() => {
     $("html, body").animate({
-      scrollTop: $(".pyramid-container").offset().top
-    }, 1000);
+      scrollTop: $("#pyramid-section").offset().top
+    }, 1500);
   });
 
   $("#carousel-btn").click(() => {
     $("html, body").animate({
-      scrollTop: $(".carousel-container").offset().top
-    }, 1000);
+      scrollTop: $("#carousel-section").offset().top
+    }, 1500);
   });
 
 

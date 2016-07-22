@@ -2,7 +2,7 @@
   width: 400px;
   height: 400px;
   position: relative;
-  margin: 100px auto 40px auto;
+  margin: 0 auto;
   -webkit-perspective: 1200px;
 }
 #cube {
@@ -173,7 +173,7 @@
 }
 
 #cube-show-buttons button {
-  margin: 5px 10px;
+  margin: 25px 10px;
 }
 
 @keyframes cube-spin {

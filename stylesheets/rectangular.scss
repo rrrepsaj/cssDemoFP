@@ -2,7 +2,7 @@
   width: 600px;
   height: 400px;
   position: relative;
-  margin: 100px auto 40px auto;
+  margin: 0 auto;
   -webkit-perspective: 1200px;
 }
 #rectangular {
@@ -213,7 +213,7 @@ section#rectangular-show-buttons {
 }
 
 #rectangular-show-buttons button {
-    margin: 5px 10px;
+    margin: 25px 10px;
 }
 
 @keyframes spin {

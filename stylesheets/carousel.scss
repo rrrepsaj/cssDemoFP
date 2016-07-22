@@ -1,8 +1,9 @@
 .carousel-container {
   width: 840px;
-  height: 560px;
+  height: 350px;
   position: relative;
-  margin: 100px auto 40px auto;
+  margin: 0 auto 0 auto;
+  padding: 0;
   -webkit-perspective: 1200px;
 }
 #carousel {
@@ -128,7 +129,7 @@
 }
 
 #carousel-show-buttons button {
-  margin: 5px 10px;
+  margin: 25px 10px;
 }
 
 @keyframes carousel-spin {

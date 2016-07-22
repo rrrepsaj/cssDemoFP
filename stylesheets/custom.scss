@@ -1,9 +1,15 @@
 /* General */
 
+// html {
+//   padding: 20px;
+// }
+
 body {
+  font-family: 'Noto Sans', sans-serif;
+  // font-size: 18px;
   background: #000;
   margin: 0;
-  padding: 0;
+  padding: 100px;
 
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   background-size: 400% 400%;
@@ -20,6 +26,15 @@ body {
   padding: 0;
 }
 
+.independent {
+  margin-bottom: 100px;
+}
+
+// section {
+//   margin: 0;
+//   padding: 0;
+// }
+
 /* Buttons */
 
 #button-locators {
@@ -28,8 +43,27 @@ body {
   // align-content: space-between;
 }
 
+h3.title {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+div.back-to-top {
+  float: right;
+  margin: 20px;
+}
+
+span.top {
+  cursor: pointer;
+  color: #000;
+  float: right;
+  margin-left: 5px;
+}
+
 button {
-  background-color: #333333;
+  // background-color: #333333;
+  background-color: rgba(0, 0, 0, 0.2);
   border: 2px solid white;
   border-radius: 5px;
   color: white;
