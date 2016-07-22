@@ -121,6 +121,8 @@
   -webkit-transition: -webkit-transform 1s;
 }
 
+/* Show buttons */
+
 #carousel-show-buttons {
   display: flex;
   justify-content: center;
@@ -131,6 +133,48 @@
 #carousel-show-buttons button {
   margin: 25px 10px;
 }
+
+.show-panel-1:hover, .show-panel-1:focus {
+  background: hsla(0, 100%, 50%, 0.5);
+}
+
+.show-panel-2:hover, .show-panel-2:focus {
+  background: hsla(60, 100%, 50%, 0.5);
+}
+
+.show-panel-3:hover, .show-panel-3:focus {
+  background: hsla(120, 100%, 50%, 0.5);
+}
+
+.show-panel-4:hover, .show-panel-4:focus {
+  background: hsla(180, 100%, 50%, 0.5);
+}
+
+.show-panel-5:hover, .show-panel-5:focus {
+  background: hsla(0, 100%, 50%, 0.5);
+}
+
+.show-panel-6:hover, .show-panel-6:focus {
+  background: hsla(60, 100%, 50%, 0.5);
+}
+
+.show-panel-7:hover, .show-panel-7:focus {
+  background: hsla(120, 100%, 50%, 0.5);
+}
+
+.show-panel-8:hover, .show-panel-8:focus {
+  background: hsla(180, 100%, 50%, 0.5);
+}
+
+.show-panel-9:hover, .show-panel-9:focus {
+  background: hsla(240, 100%, 50%, 0.5);
+}
+
+.show-panel-10:hover, .show-panel-10:focus {
+  background: hsla(300, 100%, 50%, 0.5);
+}
+
+/* Keyframes */
 
 @keyframes carousel-spin {
   from { transform: rotateY(0) rotateX(0); }
