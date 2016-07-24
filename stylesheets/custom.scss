@@ -15,13 +15,12 @@ body {
   // background: url("https://res.cloudinary.com/deqbn35yx/image/upload/v1468904185/space%20wallpapers/v3yJIJt.jpg");
   // background-size: 400% 400%;
 
-  background: linear-gradient(230deg, #5565bb, #1b2972, #83bbd0);
+  background: linear-gradient(132deg, #00275d, #38006e, #742fb6);
   background-size: 600% 600%;
 
-  -webkit-animation: bgAnim 100s ease infinite;
-  -moz-animation: bgAnim 100s ease infinite;
-  -o-animation: bgAnim 100s ease infinite;
-  animation: bgAnim 100s ease infinite;
+  -webkit-animation: bgAnim 47s ease infinite;
+  -moz-animation: bgAnim 47s ease infinite;
+  animation: bgAnim 47s ease infinite;
 
   // -webkit-animation: bgAnim 100s ease infinite;
   // -moz-animation: bgAnim 100s ease infinite;
@@ -41,7 +40,7 @@ body {
   font-size: 60px;
   font-weight: 700;
   position: relative;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   padding-bottom: 20px;
 }
@@ -49,10 +48,11 @@ body {
 #top-header h1 {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .independent {
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
 }
 
 #atom {
@@ -71,10 +71,28 @@ body {
 #button-locators {
 }
 
+// h3.title {
+//   font-size: 60px;
+//   text-align: center;
+//   margin-bottom: 0;
+// }
+
 h3.title {
   font-size: 60px;
   text-align: center;
   margin-bottom: 0;
+  color: #000;
+  text-shadow: 0px 5px 10px #aaa;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-transition: color 0.5s ease-in;
+  -moz-transition: color 0.5s ease-in;
+  -o-transition: color 0.5s ease-in;
+  -ms-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
+}
+h3.title:hover {
+  color: #a2d6f0;
+  text-shadow: 0px 5px 10px #000;
 }
 
 div.back-to-top {
@@ -113,38 +131,17 @@ button:hover, button:focus {
 /* Keyframes */
 
 @-webkit-keyframes bgAnim {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
 @-moz-keyframes bgAnim {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
 @keyframes bgAnim {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
-
-// @-webkit-keyframes bgAnim {
-//     0%{background-position:32% 0%}
-//     50%{background-position:69% 100%}
-//     100%{background-position:32% 0%}
-// }
-// @-moz-keyframes bgAnim {
-//     0%{background-position:32% 0%}
-//     50%{background-position:69% 100%}
-//     100%{background-position:32% 0%}
-// }
-// @-o-keyframes bgAnim {
-//     0%{background-position:32% 0%}
-//     50%{background-position:69% 100%}
-//     100%{background-position:32% 0%}
-// }
-// @keyframes bgAnim {
-//     0%{background-position:32% 0%}
-//     50%{background-position:69% 100%}
-//     100%{background-position:32% 0%}
-// }

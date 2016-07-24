@@ -269,24 +269,3 @@ button.show-cube-bottom:hover, button.show-cube-bottom:focus {
   from { transform: rotateY(0) rotateX(0); }
   to { transform: rotateY(-360deg) rotateX(360deg); }
 }
-
-@-webkit-keyframes bgAnim {
-    0%{background-position:32% 0%}
-    50%{background-position:69% 100%}
-    100%{background-position:32% 0%}
-}
-@-moz-keyframes bgAnim {
-    0%{background-position:32% 0%}
-    50%{background-position:69% 100%}
-    100%{background-position:32% 0%}
-}
-@-o-keyframes bgAnim {
-    0%{background-position:32% 0%}
-    50%{background-position:69% 100%}
-    100%{background-position:32% 0%}
-}
-@keyframes bgAnim {
-    0%{background-position:32% 0%}
-    50%{background-position:69% 100%}
-    100%{background-position:32% 0%}
-}
