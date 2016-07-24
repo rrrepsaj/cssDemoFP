@@ -87,22 +87,6 @@
   transform-style: preserve-3d;
 }
 
-/* Keyframes */
-
-@keyframes carousel-spin-clock {
-  from { transform: rotateY(0) rotateX(0); }
-  to { transform: rotateY(-360deg) rotateX(0deg); }
-}
-
-@keyframes carousel-spin-counter {
-  from { transform: rotateY(0) rotateX(0); }
-  to { transform: rotateY(360deg) rotateX(0deg); }
-}
-
-
-.cd-row-1 {
-}
-
 .carousel-demo.cd-row-1 {
     top: 15%;
 }
@@ -117,4 +101,16 @@
 
 .carousel-demo.cd-row-4 {
     top: 54%;
+}
+
+/* Keyframes */
+
+@keyframes carousel-spin-clock {
+  from { transform: rotateY(0) rotateX(0); }
+  to { transform: rotateY(-360deg) rotateX(0deg); }
+}
+
+@keyframes carousel-spin-counter {
+  from { transform: rotateY(0) rotateX(0); }
+  to { transform: rotateY(360deg) rotateX(0deg); }
 }

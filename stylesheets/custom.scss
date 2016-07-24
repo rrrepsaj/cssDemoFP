@@ -9,7 +9,7 @@ body {
   // font-size: 18px;
   background: #000;
   margin: 0;
-  padding: 30px 100px;
+  // padding: 30px 100px;
 
   // background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   // background: url("https://res.cloudinary.com/deqbn35yx/image/upload/v1468904185/space%20wallpapers/v3yJIJt.jpg");
@@ -45,6 +45,14 @@ body {
   border-radius: 5px;
   padding: 3em 0 4em;
 }
+
+// div:hover {
+//    -webkit-transform: scale(1.1);
+//    -moz-transform:    scale(1.1);
+//    -ms-transform:     scale(1.1);
+//    -o-transform:      scale(1.1);
+//    text-shadow: 3px 3px 0 #333;
+// }
 
 // #top-header h1 {
 //   text-transform: uppercase;
@@ -96,7 +104,6 @@ body {
   }
 }
 
-
 .independent {
   // margin-bottom: 100px;
 }
@@ -112,6 +119,18 @@ img
   -moz-box-shadow: 0 0 15px #fff;
   -webkit-box-shadow: 0 0 15px #fff;
   box-shadow: 0px 0px 15px #fff;
+}
+
+.github {
+  text-shadow: 0px 5px 10px rgba(105, 255, 0, 1);
+}
+
+.linkedin {
+  text-shadow: 0px 5px 10px rgba(255, 0, 184, 1);
+}
+
+.portfolio {
+  text-shadow: 0px 5px 10px rgba(0, 209, 255, 1);
 }
 
 // section {
@@ -175,6 +194,8 @@ button {
   font-size: 16px;
   // margin-top: 16px;
   padding: 15px 30px;
+
+  /* Amazing how text-transform transforms Greek letters as well */
   text-transform: uppercase;
   transition: all 200ms;
 }
