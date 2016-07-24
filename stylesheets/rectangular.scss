@@ -126,9 +126,21 @@
   transition: transform 1s;
   width: 296px;
   height: 196px;
-  background: hsla(0, 100%, 50%, 0.7);
+  // background: hsla(0, 100%, 50%, 0.7);
   transform: translateZ(11x);
+  // color: black;
+
   color: black;
+  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  background-size: 400% 400%;
+  opacity: 0.7;
+  text-shadow: 0px 5px 10px #666;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  -webkit-animation: bgAnim 5s ease infinite;
+  -moz-animation: bgAnim 5s ease infinite;
+  -o-animation: bgAnim 5s ease infinite;
+  animation: bgAnim 5s ease infinite;
 }
 #rectangular .rectangular-b-unpack:hover {
   transition: transform 1s;
