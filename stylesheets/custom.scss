@@ -29,6 +29,7 @@ body {
 }
 
 .main-content {
+  // display: block;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -37,7 +38,7 @@ body {
 .main-header {
   text-align: center;
   text-shadow: 0px 5px 10px #666;
-  font-size: 60px;
+  font-size: 2em;
   font-weight: 700;
   position: relative;
   background: rgba(255, 255, 255, 0.2);
@@ -45,11 +46,58 @@ body {
   padding-bottom: 20px;
 }
 
+// #top-header h1 {
+//   text-transform: uppercase;
+//   margin: 0;
+//   padding: 0;
+//   color: white;
+// }
+
 #top-header h1 {
-  margin: 0;
-  padding: 0;
+  // font-size: 2em;
   color: white;
+  margin-top: 30px;
+  padding: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: .35em;
+  // display: inline-block;
+  // padding: 1.5em 0em;
+  // position: absolute;
+  // top: 18%;
+  // left: 50%;
+  // width: 40em;
+  // margin: 0 0 0 -20em;
 }
+
+#top-header h1 span {
+  font: "Open Sans", sans-serif;
+  font-size: 3em;
+  letter-spacing: 0;
+  // padding: .25em 0 .325em;
+
+
+  border: 4px double rgba(255, 255, 255, 0.2);
+  border-width: 6px 0;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  background: url(http://ihdimages.com/wp-content/uploads/2014/11/space_stars_purple_wallpaper.jpg) repeat-y;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: starPurpAnim 50s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes starPurpAnim {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
 
 .independent {
   // margin-bottom: 100px;
@@ -61,15 +109,18 @@ body {
   padding: 150px;
 }
 
+img
+{
+  -moz-box-shadow: 0 0 15px #fff;
+  -webkit-box-shadow: 0 0 15px #fff;
+  box-shadow: 0px 0px 15px #fff;
+}
+
 // section {
 //   margin: 0;
 //   padding: 0;
 // }
 
-/* Buttons */
-
-#button-locators {
-}
 
 // h3.title {
 //   font-size: 60px;
@@ -78,6 +129,8 @@ body {
 // }
 
 h3.title {
+  display: block;
+  padding: 30px;
   font-size: 60px;
   text-align: center;
   margin-bottom: 0;
@@ -93,6 +146,11 @@ h3.title {
 h3.title:hover {
   color: #a2d6f0;
   text-shadow: 0px 5px 10px #000;
+}
+
+/* Buttons */
+
+#button-locators {
 }
 
 div.back-to-top {
