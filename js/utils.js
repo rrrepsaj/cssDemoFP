@@ -120,6 +120,35 @@ let test = function(){
   cubeDiv.addEventListener('mouseenter', cubeUnpack, false);
   cubeDiv.addEventListener('mouseleave', cubeRepack, false);
 
+  let spaceCubeDiv = document.querySelector('.cube-space-container').children[0];
+
+  let spaceCubeFront = document.querySelector('.space-cube-front');
+  let spaceCubeBack = document.querySelector('.space-cube-back');
+  let spaceCubeRight = document.querySelector('.space-cube-right');
+  let spaceCubeLeft = document.querySelector('.space-cube-left');
+  let spaceCubeTop = document.querySelector('.space-cube-top');
+  let spaceCubeBottom = document.querySelector('.space-cube-bottom');
+
+  let spaceCubeUnpack = function(e){
+    spaceCubeFront.className = "cube-front-unpack";
+    spaceCubeBack.className = "cube-back-unpack";
+    spaceCubeRight.className = "cube-right-unpack";
+    spaceCubeLeft.className =  "cube-left-unpack";
+    spaceCubeTop.className =  "cube-top-unpack";
+    spaceCubeBottom.className = "cube-bottom-unpack";
+  };
+
+  let spaceCubeRepack = function(e){
+    spaceCubeFront.className = "cube-front space-cube-front";
+    spaceCubeBack.className = "cube-back space-cube-back";
+    spaceCubeRight.className = "cube-right space-cube-right";
+    spaceCubeLeft.className =  "cube-left space-cube-left";
+    spaceCubeTop.className =  "cube-top space-cube-top";
+    spaceCubeBottom.className = "cube-bottom space-cube-bottom";
+  };
+
+  spaceCubeDiv.addEventListener('mouseenter', spaceCubeUnpack, false);
+  spaceCubeDiv.addEventListener('mouseleave', spaceCubeRepack, false);
   //rectangular prism
   let rectangularDiv = document.querySelector('.rectangular-container').children[0];
   let rectangularShowButtons = document.querySelectorAll('#rectangular-show-buttons button');

@@ -10,7 +10,7 @@
 
 ul {
   position: relative;
-  // -webkit-transform: rotate(90deg);
+  // transform: rotate(90deg);
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -30,7 +30,7 @@ ul {
   display: block;
   box-shadow: -27px 20px 0 rgba(208, 208, 208, 0.5);
   text-decoration: none;
-  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
   transition: all .25s linear;
 }
 
@@ -47,7 +47,7 @@ ul {
   text-decoration: none;
   box-shadow: -14px 18px 0 rgba(225, 225, 225, 0.72);
   transform: rotate(90deg);
-  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
   transition: all .25s linear;
 }
 
@@ -63,15 +63,15 @@ a > p {
 .list-item-rotated:hover {
   background: #ff6e42;
   color: #fffcfb;
-  -webkit-transform: translate(0.9em, -0.9em);
+  transform: translate(0.9em, -0.9em);
   transform: translate(0.9em, 1.1em) rotate(90deg);
   box-shadow: -28px 33px 0 rgba(225, 225, 225, 0.72);
-  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
   transition: all .25s linear;
 }
 
 .list-item-rotated:hover:before, .list-item-rotated:hover:after {
-  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
   transition: all .25s linear;
 }
 .list-item-rotated:hover:before {
@@ -89,7 +89,7 @@ a > p {
 .list-item-rotated:before, .list-item-rotated:after {
   content: '';
   position: absolute;
-  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
   transition: all .25s linear;
   width: 9px;
 }
@@ -98,7 +98,7 @@ a > p {
   background: whitesmoke;
   bottom: -24px;
   left: 12px;
-  -webkit-transform: rotate(90deg) skew(0, 45deg);
+  transform: rotate(90deg) skew(0, 45deg);
   transform: rotate(90deg) skew(0, 45deg);
 }
 .list-item-rotated:before {
@@ -106,21 +106,21 @@ a > p {
   background: red;
   top: 4px;
   left: -8px;
-  -webkit-transform: skewY(-45deg);
+  transform: skewY(-45deg);
   transform: skewY(-45deg);
 }
 
 .list-item:hover {
   background: #ff6e42;
   color: #fffcfb;
-  -webkit-transform: translate(0.9em, -0.9em);
   transform: translate(0.9em, -0.9em);
-  -webkit-transition: all .25s linear;
+  transform: translate(0.9em, -0.9em);
+  transition: all .25s linear;
   box-shadow: -40px 34px 0 rgba(224, 221, 221, 0.62);
   transition: all .25s linear;
 }
 .list-item:hover:before, .list-item:hover:after {
-  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
   transition: all .25s linear;
 }
 .list-item:hover:before {
@@ -138,7 +138,7 @@ a > p {
 .list-item:before, .list-item:after {
   content: '';
   position: absolute;
-  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
   transition: all .25s linear;
   width: 9px;
 }
@@ -147,7 +147,7 @@ a > p {
   background: whitesmoke;
   bottom: -24px;
   left: 12px;
-  -webkit-transform: rotate(90deg) skew(0, 45deg);
+  transform: rotate(90deg) skew(0, 45deg);
   transform: rotate(90deg) skew(0, 45deg);
 }
 .list-item:before {
@@ -155,7 +155,7 @@ a > p {
   background: red;
   top: 4px;
   left: -8px;
-  -webkit-transform: skewY(-45deg);
+  transform: skewY(-45deg);
   transform: skewY(-45deg);
 }
 
