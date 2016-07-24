@@ -11,13 +11,22 @@ body {
   margin: 0;
   padding: 30px 100px;
 
-  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
-  background-size: 400% 400%;
+  // background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  // background: url("https://res.cloudinary.com/deqbn35yx/image/upload/v1468904185/space%20wallpapers/v3yJIJt.jpg");
+  // background-size: 400% 400%;
 
-  -webkit-animation: bgAnim 59s ease infinite;
-  -moz-animation: bgAnim 59s ease infinite;
-  -o-animation: bgAnim 59s ease infinite;
-  animation: bgAnim 59s ease infinite;
+  background: linear-gradient(230deg, #5565bb, #1b2972, #83bbd0);
+  background-size: 600% 600%;
+
+  -webkit-animation: bgAnim 100s ease infinite;
+  -moz-animation: bgAnim 100s ease infinite;
+  -o-animation: bgAnim 100s ease infinite;
+  animation: bgAnim 100s ease infinite;
+
+  // -webkit-animation: bgAnim 100s ease infinite;
+  // -moz-animation: bgAnim 100s ease infinite;
+  // -o-animation: bgAnim 100s ease infinite;
+  // animation: bgAnim 100s ease infinite;
 }
 
 .main-content {
@@ -60,9 +69,6 @@ body {
 /* Buttons */
 
 #button-locators {
-  display: flex;
-  justify-content: center;
-  // align-content: space-between;
 }
 
 h3.title {
@@ -107,22 +113,38 @@ button:hover, button:focus {
 /* Keyframes */
 
 @-webkit-keyframes bgAnim {
-    0%{background-position:32% 0%}
-    50%{background-position:69% 100%}
-    100%{background-position:32% 0%}
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
 }
 @-moz-keyframes bgAnim {
-    0%{background-position:32% 0%}
-    50%{background-position:69% 100%}
-    100%{background-position:32% 0%}
-}
-@-o-keyframes bgAnim {
-    0%{background-position:32% 0%}
-    50%{background-position:69% 100%}
-    100%{background-position:32% 0%}
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
 }
 @keyframes bgAnim {
-    0%{background-position:32% 0%}
-    50%{background-position:69% 100%}
-    100%{background-position:32% 0%}
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
 }
+
+// @-webkit-keyframes bgAnim {
+//     0%{background-position:32% 0%}
+//     50%{background-position:69% 100%}
+//     100%{background-position:32% 0%}
+// }
+// @-moz-keyframes bgAnim {
+//     0%{background-position:32% 0%}
+//     50%{background-position:69% 100%}
+//     100%{background-position:32% 0%}
+// }
+// @-o-keyframes bgAnim {
+//     0%{background-position:32% 0%}
+//     50%{background-position:69% 100%}
+//     100%{background-position:32% 0%}
+// }
+// @keyframes bgAnim {
+//     0%{background-position:32% 0%}
+//     50%{background-position:69% 100%}
+//     100%{background-position:32% 0%}
+// }

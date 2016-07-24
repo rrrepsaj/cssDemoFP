@@ -35,14 +35,25 @@
   transform: translateZ(100px);
   background: hsla(0, 100%, 50%, 0.7);
 }
+
 #cube .cube-front-unpack {
   transition: transform 1s;
   transform: translateZ(200px);
   background: hsla(0, 100%, 50%, 0.7);
 }
 #cube .cube-front-unpack:hover {
-  background: hsla(0, 100%, 50%, 1);
+  // background: hsla(0, 100%, 50%, 1);
   color: black;
+  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  background-size: 400% 400%;
+  opacity: 0.7;
+  text-shadow: 0px 5px 10px #666;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  -webkit-animation: bgAnim 5s ease infinite;
+  -moz-animation: bgAnim 5s ease infinite;
+  -o-animation: bgAnim 5s ease infinite;
+  animation: bgAnim 5s ease infinite;
 }
 
 #cube .cube-back {
@@ -58,8 +69,18 @@
 #cube .cube-back-unpack:hover {
   transition: transform 1s;
   transform: rotateX(180deg) translateZ(200px);
-  background: hsla(  60, 100%, 50%, 1 );
+  // background: hsla(  60, 100%, 50%, 1 );
   color: black;
+  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  background-size: 400% 400%;
+  opacity: 0.7;
+  text-shadow: 0px 5px 10px #666;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  -webkit-animation: bgAnim 5s ease infinite;
+  -moz-animation: bgAnim 5s ease infinite;
+  -o-animation: bgAnim 5s ease infinite;
+  animation: bgAnim 5s ease infinite;
 }
 
 #cube .cube-right {
@@ -75,8 +96,18 @@
 #cube .cube-right-unpack:hover {
   transition: transform 1s;
   transform: rotateY(90deg) translateZ(200px);
-  background: hsla( 120, 100%, 50%, 1 );
+  // background: hsla( 120, 100%, 50%, 1 );
   color: black;
+  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  background-size: 400% 400%;
+  opacity: 0.7;
+  text-shadow: 0px 5px 10px #666;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  -webkit-animation: bgAnim 5s ease infinite;
+  -moz-animation: bgAnim 5s ease infinite;
+  -o-animation: bgAnim 5s ease infinite;
+  animation: bgAnim 5s ease infinite;
 }
 
 #cube .cube-left {
@@ -92,8 +123,18 @@
 #cube .cube-left-unpack:hover {
   transition: transform 1s;
   transform: rotateY(-90deg) translateZ(200px);
-  background: hsla( 180, 100%, 50%, 1 );
+  // background: hsla( 180, 100%, 50%, 1 );
   color: black;
+  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  background-size: 400% 400%;
+  opacity: 0.7;
+  text-shadow: 0px 5px 10px #666;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  -webkit-animation: bgAnim 5s ease infinite;
+  -moz-animation: bgAnim 5s ease infinite;
+  -o-animation: bgAnim 5s ease infinite;
+  animation: bgAnim 5s ease infinite;
 }
 
 #cube .cube-top {
@@ -109,8 +150,18 @@
 #cube .cube-top-unpack:hover {
   transition: transform 1s;
   transform: rotateX(90deg) translateZ(200px);
-  background: hsla( 240, 100%, 50%, 1 );
+  // background: hsla( 240, 100%, 50%, 1 );
   color: black;
+  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  background-size: 400% 400%;
+  opacity: 0.7;
+  text-shadow: 0px 5px 10px #666;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  -webkit-animation: bgAnim 5s ease infinite;
+  -moz-animation: bgAnim 5s ease infinite;
+  -o-animation: bgAnim 5s ease infinite;
+  animation: bgAnim 5s ease infinite;
 }
 
 #cube .cube-bottom {
@@ -126,8 +177,18 @@
 #cube .cube-bottom-unpack:hover {
   transition: transform 1s;
   transform: rotateX(-90deg) translateZ(200px);
-  background: hsla( 300, 100%, 50%, 1 );
+  // background: hsla( 300, 100%, 50%, 1 );
   color: black;
+  background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
+  background-size: 400% 400%;
+  opacity: 0.7;
+  text-shadow: 0px 5px 10px #666;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  -webkit-animation: bgAnim 5s ease infinite;
+  -moz-animation: bgAnim 5s ease infinite;
+  -o-animation: bgAnim 5s ease infinite;
+  animation: bgAnim 5s ease infinite;
 }
 
 
@@ -207,4 +268,25 @@ button.show-cube-bottom:hover, button.show-cube-bottom:focus {
 @keyframes cube-spin {
   from { transform: rotateY(0) rotateX(0); }
   to { transform: rotateY(-360deg) rotateX(360deg); }
+}
+
+@-webkit-keyframes bgAnim {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@-moz-keyframes bgAnim {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@-o-keyframes bgAnim {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
+}
+@keyframes bgAnim {
+    0%{background-position:32% 0%}
+    50%{background-position:69% 100%}
+    100%{background-position:32% 0%}
 }
