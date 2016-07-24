@@ -14,6 +14,12 @@ let test = function(){
     }, 1500);
   });
 
+  $("#pyramid-btn").click(() => {
+    $("html, body").animate({
+      scrollTop: $("#pyramid-section").offset().top
+    }, 1500);
+  });
+
   $("#cube-btn").click(() => {
     $("html, body").animate({
       scrollTop: $("#cube-section").offset().top
