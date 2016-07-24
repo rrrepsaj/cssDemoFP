@@ -7,7 +7,7 @@
   perspective: 2300px;
 }
 
-#carousel-demo {
+.carousel-demo {
   width: 25%;
   height: 25%;
   left: 37.5%;
@@ -16,7 +16,7 @@
   transform-style: preserve-3d;
   // transition: transform 1s;
 }
-#carousel-demo figure {
+.carousel-demo figure {
   display: block;
   position: absolute;
   width: 186px;
@@ -30,48 +30,48 @@
   margin: 0px;
 }
 
-#carousel-demo .cd-panel-1 {
+.carousel-demo .cd-panel-1 {
   transform: rotateY(0deg) translateZ(323px);
   background: hsla(0, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-2 {
+.carousel-demo .cd-panel-2 {
   transform: rotateY(36deg) translateZ(323px);
   background: hsla(60, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-3 {
+.carousel-demo .cd-panel-3 {
   transform: rotateY(72deg) translateZ(323px);
   background: hsla(120, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-4 {
+.carousel-demo .cd-panel-4 {
   transform: rotateY(108deg) translateZ(323px);
   background: hsla(180, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-5 {
+.carousel-demo .cd-panel-5 {
   transform: rotateY(144deg) translateZ(323px);
     background: hsla(0, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-6 {
+.carousel-demo .cd-panel-6 {
   transform: rotateY(180deg) translateZ(323px);
   background: hsla(60, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-7 {
+.carousel-demo .cd-panel-7 {
   transform: rotateY(216deg) translateZ(323px);
   background: hsla(120, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-8 {
+.carousel-demo .cd-panel-8 {
   transform: rotateY(252deg) translateZ(323px);
   background: hsla(180, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-9 {
+.carousel-demo .cd-panel-9 {
   transform: rotateY(288deg) translateZ(323px);
   background: hsla(240, 100%, 50%, 0.85);
 }
-#carousel-demo .cd-panel-10 {
+.carousel-demo .cd-panel-10 {
   transform: rotateY(324deg) translateZ(323px);
   background: hsla(300, 100%, 50%, 0.85);
 }
 
-#carousel-demo.show-panel-free-spin-clock{
+.carousel-demo.show-panel-free-spin-clock{
   width: 25%;
   height: 25%;
   position: absolute;
@@ -79,7 +79,7 @@
   transform-style: preserve-3d;
 }
 
-#carousel-demo.show-panel-free-spin-counter{
+.carousel-demo.show-panel-free-spin-counter{
   width: 25%;
   height: 25%;
   position: absolute;
@@ -103,18 +103,18 @@
 .cd-row-1 {
 }
 
-#carousel-demo.cd-row-1 {
+.carousel-demo.cd-row-1 {
     top: 15%;
 }
 
-#carousel-demo.cd-row-2 {
+.carousel-demo.cd-row-2 {
     top: 28%;
 }
 
-#carousel-demo.cd-row-3 {
+.carousel-demo.cd-row-3 {
     top: 41%;
 }
 
-#carousel-demo.cd-row-4 {
+.carousel-demo.cd-row-4 {
     top: 54%;
 }
