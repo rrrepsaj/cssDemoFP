@@ -1,0 +1,98 @@
+.footer-basic-centered{
+	background-color: rgba(0, 0, 0, 0.46);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: "Open Sans", sans-serif;
+
+	padding: 45px;
+	// margin-top: 80px;
+
+	text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  // background: url(http://ihdimages.com/wp-content/uploads/2014/11/space_stars_purple_wallpaper.jpg) repeat-y;
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // -webkit-animation: starPurpAnim 50s linear infinite;
+  // -webkit-transform: translate3d(0, 0, 0);
+  // -webkit-backface-visibility: hidden;
+}
+
+.footer-basic-centered .footer-company-motto{
+	color:  #ddd;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 30px;
+
+	background: url(http://ihdimages.com/wp-content/uploads/2014/11/space_stars_purple_wallpaper.jpg) repeat-y;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: starPurpAnim 50s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+.footer-basic-centered .footer-company-name{
+	color:  #ddd;
+	font-size: 14px;
+	margin: 30px;
+	background: url(http://ihdimages.com/wp-content/uploads/2014/11/space_stars_purple_wallpaper.jpg) repeat-y;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: starPurpAnim 50s linear infinite;
+	-webkit-transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+}
+
+.footer-basic-centered .footer-links{
+	list-style: none;
+	// font-weight: bold;
+	color:  #ffffff;
+	padding: 30px 0 40px;
+	// margin: 30px 0;
+
+	border: 4px double rgba(255, 255, 255, 0.2);
+  // border-width: 6px 0;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+}
+
+.footer-links h3 {
+	font-size: 29px;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	line-height: 19px;
+}
+
+.footer-basic-centered .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
