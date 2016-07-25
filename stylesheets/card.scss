@@ -42,7 +42,6 @@
 #card .middle-f {
   background: rgba(0, 209, 255, 0.7);
   opacity: 0.5;
-  // border: 1px solid black;
   -webkit-transition: -webkit-transform 1s;
   -webkit-transform: translateZ(1px);
 }
@@ -75,7 +74,6 @@
 }
 #card .middle-b {
   background: rgba(255, 0, 184, 0.7);
-  // border: 1px solid black;
   -webkit-transition: -webkit-transform 1s;
   -webkit-transform: rotateX(180deg) translateZ(1px);
 }
@@ -93,7 +91,6 @@
 #card .card-middle-f-unpack {
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   opacity: 0.5;
-  // border: 1px solid black;
   -webkit-transition: -webkit-transform 1s;
   -webkit-transform: translateZ(40px);
 
@@ -106,7 +103,6 @@
 #card .card-middle-b-unpack {
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   opacity: 0.5;
-  // border: 1px solid black;
   -webkit-transition: -webkit-transform 1s;
   -webkit-transform: rotateX(180deg) translateZ(40px);
 
@@ -151,13 +147,6 @@
 #flip-button button {
   margin: 25px 10px;
 }
-
-// #flip-button button:hover, button:focus {
-//   background-color: #fff;
-//   color: #333;
-//   outline: 0;
-//   border: 1px solid #333;
-// }
 
 section.axis-legend {
     display: flex;

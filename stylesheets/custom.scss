@@ -1,19 +1,9 @@
 /* General */
 
-// html {
-//   padding: 20px;
-// }
-
 body {
   font-family: 'Noto Sans', sans-serif;
-  // font-size: 18px;
   background: #000;
   margin: 0;
-  // padding: 30px 100px;
-
-  // background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
-  // background: url("https://res.cloudinary.com/deqbn35yx/image/upload/v1468904185/space%20wallpapers/v3yJIJt.jpg");
-  // background-size: 400% 400%;
 
   background: linear-gradient(132deg, #00275d, #38006e, #742fb6);
   background-size: 600% 600%;
@@ -21,15 +11,9 @@ body {
   -webkit-animation: bgAnim 47s ease infinite;
   -moz-animation: bgAnim 47s ease infinite;
   animation: bgAnim 47s ease infinite;
-
-  // -webkit-animation: bgAnim 100s ease infinite;
-  // -moz-animation: bgAnim 100s ease infinite;
-  // -o-animation: bgAnim 100s ease infinite;
-  // animation: bgAnim 100s ease infinite;
 }
 
 .main-content {
-  // display: block;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -46,41 +30,17 @@ body {
   padding: 3em 0 4em;
 }
 
-// div:hover {
-//    -webkit-transform: scale(1.1);
-//    -moz-transform:    scale(1.1);
-//    -ms-transform:     scale(1.1);
-//    -o-transform:      scale(1.1);
-//    text-shadow: 3px 3px 0 #333;
-// }
-
-// #top-header h1 {
-//   text-transform: uppercase;
-//   margin: 0;
-//   padding: 0;
-//   color: white;
-// }
-
 #top-header h1 {
-  // font-size: 2em;
   color: white;
   padding: 0.25em;
   text-transform: uppercase;
   letter-spacing: .35em;
-  // display: inline-block;
-  // padding: 1.5em 0em;
-  // position: absolute;
-  // top: 18%;
-  // left: 50%;
-  // width: 40em;
-  // margin: 0 0 0 -20em;
 }
 
 #top-header h1 span {
   font: "Open Sans", sans-serif;
   font-size: 2.5em;
   letter-spacing: 0;
-  // padding: .25em 0 .325em;
 
   border: 4px double rgba(255, 255, 255, 0.2);
   border-width: 6px 0;
@@ -102,10 +62,6 @@ body {
   100% {
     background-position: 0% 0%;
   }
-}
-
-.independent {
-  // margin-bottom: 100px;
 }
 
 #atom {
@@ -132,18 +88,6 @@ img
 .portfolio {
   text-shadow: 0px 5px 10px rgba(0, 209, 255, 1);
 }
-
-// section {
-//   margin: 0;
-//   padding: 0;
-// }
-
-
-// h3.title {
-//   font-size: 60px;
-//   text-align: center;
-//   margin-bottom: 0;
-// }
 
 h3.title {
   display: block;
@@ -185,14 +129,12 @@ span.top {
 }
 
 button {
-  // background-color: #333333;
   background-color: rgba(0, 0, 0, 0.2);
   border: 2px solid white;
   border-radius: 5px;
   color: white;
   cursor: pointer;
   font-size: 16px;
-  // margin-top: 16px;
   padding: 15px 30px;
 
   /* Amazing how text-transform transforms Greek letters as well */

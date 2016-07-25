@@ -21,7 +21,6 @@
   position: absolute;
   width: 196px;
   height: 196px;
-  // border: 1px solid transparent;
   opacity: 0.8;
   line-height: 196px;
   font-size: 120px;
@@ -43,7 +42,6 @@
   background: hsla(0, 100%, 50%, 0.7);
 }
 #cube .cube-front-unpack:hover {
-  // background: hsla(0, 100%, 50%, 1);
   color: black;
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   background-size: 400% 400%;
@@ -70,7 +68,6 @@
 #cube .cube-back-unpack:hover {
   transition: transform 1s;
   transform: rotateX(180deg) translateZ(200px);
-  // background: hsla(  60, 100%, 50%, 1 );
   color: black;
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   background-size: 400% 400%;
@@ -97,7 +94,6 @@
 #cube .cube-right-unpack:hover {
   transition: transform 1s;
   transform: rotateY(90deg) translateZ(200px);
-  // background: hsla( 120, 100%, 50%, 1 );
   color: black;
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   background-size: 400% 400%;
@@ -124,7 +120,6 @@
 #cube .cube-left-unpack:hover {
   transition: transform 1s;
   transform: rotateY(-90deg) translateZ(200px);
-  // background: hsla( 180, 100%, 50%, 1 );
   color: black;
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   background-size: 400% 400%;
@@ -151,7 +146,6 @@
 #cube .cube-top-unpack:hover {
   transition: transform 1s;
   transform: rotateX(90deg) translateZ(200px);
-  // background: hsla( 240, 100%, 50%, 1 );
   color: black;
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   background-size: 400% 400%;
@@ -178,7 +172,6 @@
 #cube .cube-bottom-unpack:hover {
   transition: transform 1s;
   transform: rotateX(-90deg) translateZ(200px);
-  // background: hsla( 300, 100%, 50%, 1 );
   color: black;
   background: linear-gradient(136deg, #75d1e6, #fda9a9, #fdf7a9, #84ff83, #83fffb, #a7a5ff, #ffa5fc, #ffd192);
   background-size: 400% 400%;

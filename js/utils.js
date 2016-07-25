@@ -206,19 +206,19 @@ let test = function(){
     carouselShowButtons[i].addEventListener('click', onCarouselShowButtonClick, false);
   }
 
-  // let navigationLists = document.querySelectorAll('.lia');
-  // let navigationRotateButton = document.querySelector('.navigation-rotate');
-  // let onNavigationRotateButtonClick = function(e){
-  //   for (let i = 0; i < navigationLists.length; i++){
-  //     if (navigationLists[i].className === "lia list-item"){
-  //       navigationLists[i].className = "lia list-item-rotated";
-  //     } else {
-  //       navigationLists[i].className = "lia list-item";
-  //     }
-  //   }
-  // }
-  //
-  // navigationRotateButton.addEventListener('click', onNavigationRotateButtonClick, false);
+  let navigationLists = document.querySelectorAll('.lia');
+  let navigationRotateButton = document.querySelector('.navigation-rotate');
+  let onNavigationRotateButtonClick = function(e){
+    for (let i = 0; i < navigationLists.length; i++){
+      if (navigationLists[i].className === "lia list-item"){
+        navigationLists[i].className = "lia list-item-rotated";
+      } else {
+        navigationLists[i].className = "lia list-item";
+      }
+    }
+  }
+
+  navigationRotateButton.addEventListener('click', onNavigationRotateButtonClick, false);
 
 
 };

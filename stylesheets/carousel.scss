@@ -14,7 +14,6 @@
   top: 37.5%;
   position: absolute;
   transform-style: preserve-3d;
-  // transition: transform 1s;
 }
 #carousel figure {
   display: block;
@@ -26,7 +25,6 @@
   top: 10px;
   font-size: 100px;
   text-align: center;
-  // border: 1px solid black;
   opacity: 0.8;
 
   margin: 0px;
@@ -119,10 +117,8 @@
   left: 37.5%;
   top: 37.5%;
   position: absolute;
-  // perspective: 1200px;
   animation: carousel-spin 15s infinite linear;
   transform-style: preserve-3d;
-  // transition: transform 1s;
 }
 
 /* Show buttons */
